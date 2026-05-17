@@ -1,0 +1,99 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #ffff;
+}
+
+.container {
+  height: 400vh;
+  .nav {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    a {
+      font-size: 20px;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: white;
+    }
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 300px;
+    .image {
+      img {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+      }
+    }
+    .text {
+      width: 40%;
+      border: 2px solid rgb(209, 228, 245);
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      h1 {
+        font-size: 30px;
+        padding-left: 15px;
+      }
+      p {
+        font-size: 16px;
+        text-transform: capitalize;
+        line-height: 20px;
+        text-align: justify;
+        padding-left: 15px;
+      }
+      .card {
+        background: white;
+        padding: 20px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        border:1px solid #222;
+        gap: 10px;
+        h2 {
+          font-size: 25px;
+          text-transform: capitalize;
+        }
+        ul {
+          padding-left: 20px;
+        }
+
+        li {
+          margin-bottom: 8px;
+        }
+      }
+      .btn{
+                display: flex;
+                gap: 20px;
+                a{
+                    text-transform: capitalize;
+                    text-decoration: none;
+                }
+                button{
+                    color: white;
+                    font-size: 15px;
+                    width: 150px;
+                    padding: 10px;
+                    border-radius: 8px;
+                    background-color: blue;
+                    border-color: blue;
+                }
+    }
+  }
+}
+}
