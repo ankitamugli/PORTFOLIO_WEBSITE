@@ -54,10 +54,6 @@ This portfolio includes:
 
 ---
 
-## 👨‍💻 Author
-
-**Abhishek**
-
 GitHub: https://github.com/ankitamugli
 
 ---
